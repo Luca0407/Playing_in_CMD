@@ -3,8 +3,8 @@
 color a
 echo Oye
 set /p input=
-if /i %input%==q goto close
-if /i not %input%==q goto 1
+if /i %input%==que goto close
+if /i not %input%==que goto 1
 
 
 :close
